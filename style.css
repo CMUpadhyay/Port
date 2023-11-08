@@ -1,0 +1,83 @@
+/* #gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  } 
+}*/
+body{
+    margin-right: 0%;
+    padding: 0%;
+
+}
+.hey{
+    text-align: center;
+    height: 500px;
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    } 
+  }
+  .letter{
+    transform: translate(0px,150px);
+  }
+.i1{
+    transform: translate(-180px,0px);
+    position: static;
+    padding: 0%;
+
+}
+#i2{
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+  
+}
+.s{
+    font-size: 50px;
+    text-align: center;
+}
+.s2{
+    margin-left: 60px
+}
+#sv{
+    padding: 20px auto;
+}
+.i4{
+    border-radius: 50%;
+    width: 80px;
+}
+.t{
+    border-radius:50% ;
+    width: 150px;
+}
+.Touch{
+    margin-bottom: 800px;
+}
+#hii{
+    transform: translate(0px,-50px);
+    
+}
+.btn{
+    color: white;
+}
